@@ -1,3 +1,3 @@
 # Projekt-TWS
 https://github.com/JakubZmatlo/Projekt-TWS.git
-Index.html
+https://JakubZmatlo.github.io/Projekt-TWS/Index.html
