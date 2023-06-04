@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="cz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Skenery</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: gainsboro;
+        }
+
+        .img1 {
+            height: 500px;
+            width: 600px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .img2{
+            height: 400px;
+            width: 400px;
+            max-width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            background-color: wheat;
+            display: block;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            background-color: rgb(255, 166, 0);
+            display: block;
+        }
+
+        .ulmenu {
+            display: flex;
+            flex-direction: column;
+            border-width: 1px;
+            border-style: solid;
+            padding-left: 0px;
+        }
+
+        .limenu,
+        .lityp {
+            list-style-type: none;
+        }
+
+        @media screen and (min-width: 992px) {
+            .ulmenu {
+                flex-direction: row;
+            }
+
+            .limenu {
+                flex-grow: 1;
+            }
+        }
+
+        footer {
+            background-color: wheat;
+            margin-top: 150px;
+            height: 109px;
+            text-align: center;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul class="ulmenu">
+            <li class="limenu"><a href="Index.html">Skenery + OCR</a></li>
+            <li class="limenu"><a href="#">Skenery</a></li>
+            <li class="limenu"><a href="Typy_Skeneru.html">Typy Skenerů</a></li>
+            <li class="limenu"><a href="OCR.html">OCR</a></li>
+            <li class="limenu"><a href="Typy_OCR .html">Typy OCR</a></li>
+            <li class="limenu"><a href="Budoucnost_Skenovani.html">Budoucnost Skenování</a></li>
+        </ul>
+    </header>
+    <div class="container-fluid">
+        <div class="col-md-6 col-lg-12">
+            <h1>Skenery</h1>
+        </div>
+        <div class="col-md-6 col-lg-12">
+            <p>Skener je je hardwarové vstupní zařízení, které naskenuje objekt a následně jej převede do
+                digitálního formátu. <br>
+                Tomuto objektu se říká sken. <br>
+                Ten poté můžeme dále upravovat na počítači. <br>
+                Využívá se například v tiskárnách nebo v čtečkách čárových kódů. <br>
+                První digitální snímek na počítači byl vytvořen roku 1957 Russellem Kirschem na U.S. National Bureau of
+                Standards, dnes známý jako Národní institut pro standardy a technologie.</p>
+            <img src="https://storage.googleapis.com/afs-prod/media/db0e9712ce004287bae6f515c17dc604/2884.jpeg" alt="" class="img1">
+        </div>
+        <div class="col-md-6 col-lg-12">
+            <br>
+            <h2>Parametry skeneru:</h2>
+        </div>
+        <div class="col-md-6 col-lg-12">
+            <h3><b>Barevná hloubka</b></h3> <br>
+            <p>Barevná hloubka udává množství odstínů barev, které je schopen skener nasnímat. <br>
+                Dříve obvyklou barevnou hloubkou je 24 bitů (8 bitů na každý barevný kanál), <br>
+                což znamená možnost záznamu v 16 777 216 odstínů. <br>
+                U současných přístrojů dosahuje barevná hloubka nejčastěji 48 bitů (16 bitů na kanál), což umožňuje
+                záznam 281 474 976 710 655 odstínů. <br>
+            </p>
+        </div>
+        <div class="col-md-6 col-lg-12">
+            <h3><b>Rozlišení obrazu</b></h3>
+            <p>Udává se obvykle v DPI (počet tiskových bodů na palec) a znamená jemnost snímání, <br>
+                a s tím spojenou datovou velikost výsledného obrazu. <br>
+                S větším rozlišením se tato velikost zvyšuje. <br>
+                Rozděluje se na: <br>
+            <ul>
+                <li class="lityp">
+                    <b>1. Hardwarové</b> - ovlivněné vlastní optickou sestavou a snímačem <br>
+                </li>
+                <li class="lityp">
+                    <b>2. Softwarové</b> - ovlivněné ovladačem <br>
+                </li>
+            </ul>
+            Dnes používaná rozlišení se pohybují mezi 1 200 a 5 900 DPI. <br></p>
+            <h3><b>Maximální velikost snímané předlohy</b></h3>
+                <p>Čtečky a filmové skenery jsou jednotné, snímají standardní čárové kódy, respektivě standardní filmové pásy. <br>
+                     Ruční skenery zvládají potenciálně nekonečný pruh o šířce do cca 210 mm, stolní modely bývají do formátu A3.</p>
+        </div>
+    </div>
+    <footer class="col-md-6 col-lg-12">
+        <br> <br>
+        <p class="pata">vyrobil:@Jakub Zmátlo <br>
+            jakub.zmatlo@student.spsmb.</p>
+    </footer>
+</body>
+
+</html>

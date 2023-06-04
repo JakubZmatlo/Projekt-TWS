@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="cz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>OCR</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: gainsboro;
+        }
+
+        .img1 {
+            height: 400px;
+            width: 400px;
+            max-width: 100%;
+        }
+
+        .img2 {
+            height: 255px;
+            width: 400px;
+            max-width: 100%;
+        }
+
+        .odkaz {
+            width: 200px;
+            background-color: gainsboro;
+        }
+
+        .odkaz:hover {
+            background-color: gainsboro;
+            color: rgb(255, 166, 0);
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            background-color: wheat;
+            display: block;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            background-color: rgb(255, 166, 0);
+            display: block;
+        }
+
+        .ulmenu {
+            display: flex;
+            flex-direction: column;
+            border-width: 1px;
+            border-style: solid;
+            padding-left: 0px;
+        }
+
+        .limenu {
+            list-style-type: none;
+        }
+
+        @media screen and (min-width: 992px) {
+            .ulmenu {
+                flex-direction: row;
+            }
+
+            .limenu {
+                flex-grow: 1;
+            }
+        }
+
+        footer {
+            background-color: wheat;
+            margin-top: 150px;
+            height: 109px;
+            text-align: center;
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul class="ulmenu">
+            <li class="limenu"><a href="Index.html">Skenery + OCR</a></li>
+            <li class="limenu"><a href="Skenery.html">Skenery</a></li>
+            <li class="limenu"><a href="Typy_Skeneru.html">Typy Skenerů</a></li>
+            <li class="limenu"><a href="#">OCR</a></li>
+            <li class="limenu"><a href="Typy_OCR .html">Typy OCR</a></li>
+            <li class="limenu"><a href="Budoucnost_Skenovani.html">Budoucnost Skenování</a></li>
+        </ul>
+    </header>
+    <div class="container-fluid">
+        <div class="col-sm-1 col-md-6 col-lg-12">
+            <h1>OCR</h1>
+        </div>
+        <div class="col-md-6 col-lg-12">
+            <p>OCR též známo jako Optical Character Recognition (Optické rozpoznávání znaků) je proces, který
+                konverjtuje
+                text na digitální obrázek. <br>
+                Ten pak lze převést na textový soubor a upravovyt ho. <br>
+                OCR může brát data ze skenovaných dokumentů, fotek z kamery a PDF souborů, které obsahují fotografii.
+                <br>
+                Využívá se na skenování nejen obyčejných textů, ale třeba i dokumentů jako pas, bankovní výpis, vizitka
+                nebo jiné podobné dokumenty. <br>
+                Dříve dokázalo OCR přečíst pouze jeden font na dokumentu, tudíž se daly skenovat pouze dokumenty, které
+                byly celé napsané v jednom fontu. <br>
+                V součastnosti s tímto už nemá problém. <br>
+                <br>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Raymond_Kurzweil_Fantastic_Voyage.jpg"
+                    alt="" class="img1">
+            </p>
+        </div>
+        <div class="col-md-6 col-lg-12">
+            <p> V roce 1974 založil Ray Kurzweil společnost Kurzweil Computer Products a dělal na vývoji OCR, které by
+                dokázalo rozpoznat text v jakémkoliv fontu. <br>
+                Kurzweil se rozhodl že nejlepší využití této technologie by bylo vytvoření stroje který by slepým lidem
+                umožnil aby jim počítač četl text nahlas. <br>
+                Toto zařízení ale potřebovalo vynalezení 2 věcí: <br>
+            <h5>1. CCD stolního skeneru</h5> <a href="Typy Skeneru.html" class="odkaz">viz. Typy skenerů</a> <br>
+            <h5>2. Text-to-Speech syntetizátoru</h5>
+            </p> <br>
+            <img src="https://www.researchgate.net/profile/Meelis-Mihkla/publication/28585190/figure/fig2/AS:669413648912387@1536612059130/Generalised-text-to-speech-synthesis-model.ppm"
+                alt="" class="img2"> <br> <br> <br>
+            <p>13. ledna 1976
+                byl tento produkt odhalen na konferenci pořádané Kurzweilem a Národní federací nevidomých. <br> O 4 roky
+                později Kurzweil prodal svoji společnost Xeroxu, ten měl v plánu dále rozvíjet převod textu z papíru do
+                počítače. <br>
+                Zpříchodem nového století se stalo OCR dostupným online servisem (WebOCR). </p>
+        </div>
+        <footer class="col-md-6 col-lg-12" class="pata">
+            <br> <br>
+            <p class="pata">vyrobil:@Jakub Zmátlo <br> 
+                jakub.zmatlo@student.spsmb.</p>
+        </footer>
+</body>
+
+</html>

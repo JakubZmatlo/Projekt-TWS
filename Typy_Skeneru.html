@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="cz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Typy skenerů</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: gainsboro;
+        }
+
+        img {
+            height: 255px;
+            width: 255px;
+            max-width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            background-color: wheat;
+            display: block;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            background-color: rgb(255, 166, 0);
+            display: block;
+        }
+
+        .ulmenu {
+            display: flex;
+            flex-direction: column;
+            border-width: 1px;
+            border-style: solid;
+            padding-left: 0px;
+            list-style-type: none;
+        }
+
+        .limenu,
+        .lityp {
+            list-style-type: none;
+        }
+
+        @media screen and (min-width: 992px) {
+            .ulmenu {
+                flex-direction: row;
+            }
+
+            .limenu {
+                flex-grow: 1;
+            }
+        }
+
+        footer {
+            background-color: wheat;
+            margin-top: 150px;
+            height: 109px;
+            text-align: center;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul class="ulmenu">
+            <li class="limenu"><a href="Index.html">Skenery + OCR</a></li>
+            <li class="limenu"><a href="Skenery.html">Skenery</a></li>
+            <li class="limenu"><a href="#">Typy Skenerů</a></li>
+            <li class="limenu"><a href="OCR.html">OCR</a></li>
+            <li class="limenu"><a href="Typy_OCR .html">Typy OCR</a></li>
+            <li class="limenu"><a href="Budoucnost_Skenovani.html">Budoucnost Skenování</a></li>
+        </ul>
+    </header>
+    <div class="container-fluid">
+        <div class="col-md-6 col-lg-12">
+            <h1>Typy skenerů</h1>
+        </div>
+        <div class="col-md-6 col-lg-12">
+            <p> Skenery se
+                dělí na
+                mnoho
+                druhů podle konstrukce a technologie.</p>
+        </div>
+        <div class="col-md-6 col-lg-12">
+            <h2>
+                Dělení skenerů podle technologie:
+            </h2>
+        </div>
+        <div class="col-md-6 col-lg-12">
+            <ol>
+                <li>
+                    <h3>Neviditelné záření</h3>
+                </li>
+                <li>
+                    <h3>LED osvětlení</h3>
+                </li>
+            </ol>
+        </div>
+        <div class="col-md-6 col-lg-12">
+            <h2>
+                Dělení skenerů podle konstrukce:
+            </h2>
+        </div>
+        <div class="col-md-6 col-lg-12">
+            <ul>
+                <li class="lityp">
+                    <br>
+                    <h3>Ruční (hand-held)</h3>
+                    Tímto skenerem je nutné ručně přejíždět po snímané ploše. Nevýhodou je malá kvalita
+                    nasnímaného obrazu způsobená nízkým rozlišením snímače. <br> Používá se v obchodech jako
+                    čtečka čárového kódu. Dnes téměř vymizel vzhledem k rozšíření stolního typu. <br> Používá
+                    neviditelné
+                    záření. <br>
+                    <br>
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASEBUPEg8QERERERIQDxMQEBAQEBAXFxUXGBURFRgYHSggGBslGxUXITEhJSkrLi4uGB8zODMtNygtLysBCgoKDg0OGhAQGy0mICEtLS0tLS8tMC4rLS8tLS0tNS8tLS0yLSstLS0rKy0tLS0tLi0tLS0rLS0wLS0tLS0tLf/AABEIAOEA4QMBEQACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABgIDBAUHCAH/xABNEAACAQIDBAYFBwcGDwAAAAAAAQIDEQQSIQUGBzETQVFhcYEiMpGhsRVCUnKSosEIFCNTYrLCFmNzgtHhJDM0NUNERXSDk6Ozw9Pi/8QAGwEBAAIDAQEAAAAAAAAAAAAAAAEDAgQFBgf/xAAzEQEAAQMBBQQJBQADAAAAAAAAAQIDEQQFEiExQRNRYXEUMoGRobHB4fAzNEJi0SIj8f/aAAwDAQACEQMRAD8A7iAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIPvbxLwuDnKhThLFYiGk4U2o0qb+jOo7690U2uuwECxvFbas2+jhhaEepKnOpNeMpSs/soDWVOIG2X/r7X1aGFX/jA+R392wv9oTf/AAcL/wCsDMw/Ena0eeJhP+kw9K33FEDe7O4sYxf43C4euuvoZzoSt4Sz3fsAkeyuLGzary1elw0+TVWm5Rv9aF9O9pATPZ+0aFePSUa1OtD6VKcZrwduQGUAAAAAAAAAAAAAAAAAAAAAAA0W++1ZYXZ9evB2moKFN/RnUkqcZeTkn5Aea8TXyuyu/PVvm2372/ETOIzJ4L+x8DLEwdXOoRzOMbxc3K3N81oRMr7dia4zlsf5N/zz/wCXb+Iwm5joujR/2+H3Hu2+qv8A9P8A+yO08E+hf2+H3P5P1FyrJ+MZR/Fk9pDH0OrvYWLw06eklaXNNcpLuM4mJ5Na5bqonFTXYj01m+ciWC1s/aNajNVKVWpSmuUqc5Ql4XXNdwHXNxuLd3HD7QaV7RjiUlFL+mitEv2lp2rmwOvxkmrp3T1TWqfeB9AAAAAAAAAAAAAAAAAAAABC+LsmtmS7Omo5u5Z1b32CYiZ5PPWKV5Ser9Ct1PrpzS97RhdqjEcesfOFtuxdmfVnr0SLdCrGOEhGTjFpyupOzu5NkTcpzzdGzYuRREbstwq8G/Wj9pFU1RK+LdcdJX4Yqne2WHi52IzBu1dzKiqT/V37OkCMS1e8dCHRJpq8ZJtJ5rJ3T/AstzxamrpzRnuQulza8S5zWDJagEwO2cEt7nUg9m1pXlShnwrfN0161L+rdNdza5RA6wAAAAAAAAAAfHJLrQTiVuWIguco+25GYZRbqnosz2jSXzm/CMv7CN+Fkaa5PRj1Nt01yhUflFfiYzchbToq56wxau8LXKg34zt8EzGbvgup2fnnV8GHV3kr/NpU19bNL4NGM3qu5fTs611qn897Cq7wYt8pQj9WC/iuYzdrW06DTx3z7WHV2tjHzrz/AKqjH4JGPaVd66NLYjlTDDq168vWrVZeNSb/ABMd6e9bFq3HKmPdDT7b2e6lCpG15Zc0e1uPpJedreZDNzjIs9uqScb9XpRcb+V7+Rjczu5jpx9yacZV7GnZOm9JRb0fb1oc11vlhs8mpOGeFdPCSk9F/YTFMzyV1100etLYYfZkecpX7op39v8AcWxZ72nXrI/jHvW9sYSnGlmikm3Fe/v1LaaIieDnay9XXbnMobSis8tFZLsRa5TAr6PRv23+IFKmwNru7td4XFUcVG96NWM2uuUeU4ecHKPmB60p1FKKkndSSlFrrT1TAqAAAAAAB8aCVLgRhMVLboLsGGUVyolhl2EbrKLsrUsIiN1nF6VqWBXYRus4vytT2euwjdWRqFieze4x3FkahZns3uI3GcahZlszuI3GcahblszuI3Gcahbeze4bjKL7nG+W59WlOVelSlUoyblJU4ucqLesk4rVw67rlydkkIpO3hC89OeuaE2tL5rSXc2mm/MU6bunH53Kq9pU08uM/nVcTmuU6qt2ThJffiy2LOOufZ92nXtG9VynHlK9HH4hf6WbXeqH4UzPE+Hu+6j0ivv/AD3Li2vX+k/uX/dGJ/P/AFPpNbFxm1JuLzzzdaVoq3sSuZK67tVfOWkjibJ9r5hW22y91MZiY9JGmoQesZ1ZZFLvirNtd9rGjqNpaexO7VOZ7o4r7emuV8YhkV9xcdHlGlP6tTX7yRVRtfTVd8exnOjuR3NZLZGIhVjRnRnGpUkoU4teu20kotaPVpeZvWr1u7GaJy16qKqJxVD1jsvC9DQpUb36KlTpX7csVG/uLWLKAAAAAAAAAAAAD5YBlQTlS6aIwnel8dJDCd+VLoIYTvypeGRGE9oLCR6xunayvQppckkZYVzVM82r2puzgMS74jBYatL6VSjCU/tWv7whGNqcI9lVYtU6dXCzfKdGtVeV/Um5Rt3W9gEN2vwYrU4OpT2g6kYq7i6DU0l16Teb3Fd2uaKZqiM47mVNO9OMoA9i07tPHUnZterXT0dtVlIpu5iJ3Z4+X+lVGJxmPj/i9gd3aM5f5XTn3KWR+HpoVXqKYzVEx7J+mSKJnlj888JpsfdHD07SlhlOa5OrLNZ9qS9H3HntZtGKpmKLk48I+vCXTs6fERM08Ugqp+HdrY41NUTLcwx+lvJQSk5ydoQjGU5ztzyxSu/wOhZ0k3fUUV3Io9ZJN3d05Sr08XioZegcpYak2pSU5K3S1LaKyvaN3zu9UkvQaHR+jxMzzlzb97tOEJwb7XAAAAAAAAAAAAAAAAAAAAAAAAAB5o3g2WoY3F00rKOLr5V2Rc3KK9jQEdlDJVXjr3rrQHVeHmMdXCypzbcqFR0k3zcfm+zVeR4/bGni3qM08qoy6+kuTVb49OCQ1YHHhtquG1aNbGY6qrNUXQwlN9mXPKrbsvJpP6iPb7KsdlpqZnnVx/z4fNxtVXvXJ8ODoJ0WsAAAAAAAAAAAAAAAAAAAAAAAAAABwne+C+UcX31v4IAQfasV0iAn3DF64pfzkH+8eb27H/Ojyl0dF6s+aQbybRWHw1WvpeEHlT5OT0gvOTRxNJYm/ept98/Dr8G7cr3KJqYn5PdRuji7tt9NSk29W7xlq/Ye/wARHCHBznjLrYAAAAAAAAAAAAAAAAAAAAAAAAAAAODb7PLtDFX/AF1/bGLXuYEKr+nWXYtX3Jc2B0nhxhHDDTrSVnXqOS+quXvbPJ7ZvRXf3Y/jGHW0lG7b49eLF4pxm8CnH1Y14Or9VxnFfflAw2FNMaqc85icefD6ZNbE9lw72w/J4rLosXTtrGpRnftUozSXlkftPXuS6+AAAAAAAAAAAAAAAAAAAAAAAAAAADmfEfdVVcR09OahOrBZ8ybjKUEo5rrVPLlXXyXLr52t2hGlqp3qcxP0bFmx2sTieMIjs3cKeb9NWg4XvJU08019G75I5mo27E04t08fFt29FETmqcp9RpRjBQilGMUoxS5JLkjg1TNWZluxGGBtjBqtRqUZcqkJQ8LrR+Ts/IjT3ZtXaa46TlFdMVUzTPVpPyeJRTxsHdVP8GbTvol0q9qbPofDo4DswAAAAAAAAAAAAAAAAAAAAAAAAAAANFvXTvGnLsm4+1X/AIThbepzZon+30lvaGf+Ux4NBKFjy9ynDpxK4kZxyQxq5VPNKP8ABijk2ntKN+TVl2rpqln5K3tPoGlq37FFX9Y+ThXYxXVHi7CXqwAAAAAAAAAAAAAAAAAAAAAAAAAANTvNH9Cn2VIv4r8TkbajOmz3TH+fVt6Of+z2I7UPJ3uTq0i5CnkSx65hPNLR8LqT+W9oPqVKN/GU018Ge52dOdLb8nE1H6tTrhuqQAAAAAAAAAAAAAAAAAAAAAAAAAANbvFG+Hl3OD+8jm7XpzpK/Z84bOknF2PzojEuR4+56rr0keRjRyTKzXMauY0fDOL+XdoPWyoU79l24NfB+89xsz9pb8vrLi6n9Wr86Otm8oAAAAAAAAAAAAAAAAAAAAAAAAAAAw9sRvh6i/Yb9mv4GntCne0tyP6z8l2nnF2nzRJcjxFXqu1HMgY2+SZWa4q5kNRw0v8ALe0ezoaF/G0bfF+09vsz9pb8vrLi6n9Wp1Y3lAAAAAAAAAAAAAAAAAAAAAAAAAAAFnGRvTmu2El7mVXqd63VHfE/JnbnFUT4oXT9VHgI40Q7vUgY20yt4gyrRDTcN5pbdx8euWHoyXhFQT/fR7XZf7S37fnLjar9Wr86Orm+oAAAAAAAAAAAAAAAAAAAAAAAAAAAs42dqU32Qk/cyq/Vu26qp6RPyZ24zVEeKHU1ojwVMYph2+qmPMrojjLKVrEllcIhCd29oqjvQl1V4fm032ZqMZx+/TgvM9lsr9pR7fnLkar9WXdDoNcAAAAAAAAAAAAAAAAAAAAAAAAAADU7yYpQouN/SqPLFd3zn4W+KObta72elq76uHv+2Wzpad67HhxRxT0PJTydVTGRXbhMsPa+NhRpSrVHaEIuUn1+C7W+SXebFNqq7VFFPOWE1RTGZcQo7Zn8oQxstJRxVOu9fVUaillv2JKx7azai1bptx0jDi11b1U1T1eti1iAAAAAAAAAAAAAAAAAAAAAAAAAABwreviVfaNVQpqth6VqFL08t3BvpKi0frSdu9QizQ12hjVRETVjC+xf7LPDm+YfiPh3pOjWh3rJNL3p+45FzYd3+NUS26dbT1hsqW/OAav00lbqdKrf3I142RqYnG78YWelW56oHvnvRLFyyRvDDwd4xekqj/WTt7l58+Xd0GgjTxvVcap+Hk0b9/tOEckZwmHdWtTpJXdWrTpJfXmo/idFrvYwAAAAAAAAAAAAAAAAAAAAAAAAAAQnixvFPC4J0aMrYnFqVKm726OCS6WrftSkku+cX1Aed/zCUeuL8GgPqpNc0BSutgY9aYE84L7sSxWPjipR/QYOSqSbWkqtv0dNd6fpvsyx7UB6LAAAAAAAAAAAAAAAAAAAAAAAAAADjPHyE41sLUs3CVKrBdilGUW14tSX2e4DliqRtrf2P4oD5KtrZNNNa63ApnJZG+uLs+9PkwL+6279XaGLhhKUowlO8pTnrGnCPrzt8525LrbWqV2B6i3c2HQwWGhhaEctOmubs5zk/WqTfXJvX+4DZgAAAAAAAAAAAAAAAAAAAAAAAAABqd5t3cNj6Dw+Ig3G6nCUXlqU5JNKcH1Oza7Hdppgcx2jwPfPD7Q06o4igm/twkv3QIzjuEW2Kfqww9ddlGvZvyqxgveBFNtbBxeDkoYuhLDucW4Z3Tkmk9WnBtd3mBKOA+IfytlWVxnh61704uUbZWssmrx77c+vkgPRoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAByrjtVnGGGSTyTddTy0YTlddHl9LK5RWsm8rV7a3AhvAfE1VtSVOObo50KrqJwXzXHL6TV0r36wPQ4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA+MjrLARdPpHH84iq0adtYOE/W/Zuo6aXA5pwQnX+VcsOn6DJV/OFHP0K9F9HKol6Kd07X77AehwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACLcTaVWWzK3RZ3NOm8tOU4uUekipxeXVxyt3XKy10A41wfp1flunKEKjhHpuncb5IxdKooupbS2fKlfrYHo4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApqRumu1NAcS4Jyy7VxVP6WGzfZlSX8YHbwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABxDhB/nuv/ALnW/wC7hgO3gAAAAAAAAP/Z"
+                        alt=""> 
+                </li>
+                <li class="lityp">
+                    <br>
+                    <h3>Stolní (flatbed)</h3>
+                    Podobný princip jako u kopírky. Dnes jsou naprosto běžnou součástí domácností. <br> Nevýhodou
+                    je
+                    zejména možnost snímání jen relativně tenkých předloh. <br> Používá LED osvětlení. <br>
+                    <br>
+                    <img src="https://www.rpg.com/wp-content/uploads/2017/11/WideTEK-12.jpg" alt="">
+                </li>
+                <li class="lityp">
+                    <br>
+                    <h3>CCD (Charge-coupled Device)</h3>
+                    Skenovaný dokument je postupně osvícen katodovou lampou. Spolu s ní putuje nad dokumentem soustava
+                    zrcadel, čoček a CCD snímač. <br> Světlo je přitom s pomocí zrcadel a čoček odraženo do CCD snímače,
+                    který disponuje třemi řádky. <br> Každý z těchto řádků je citlivý na jinou barevnou složku modelu
+                    RGB.
+                    Jednotka CCD přitom převede světlo podle jeho intenzity na signál, který se pomocí převodníku
+                    přepočítá do digitální podoby. <br> Používá LED osvětlení <br>
+                    <br>
+                    <img src="https://img.pospartner.cz/images/Ctecky_car_kodu/EHE0003_A.png?vid=1&tid=24&r=B" alt="">
+                </li>
+                <li class="lityp">
+                    <br>
+                    <h3>CIS (Contact Image Sensor)</h3>
+                    U této technologie nasvítí dokument tři LED diody v barvách RGB. Tyto diody
+                    se nachází vedle snímače CIS, který má pouze jeden snímač bez zrcadel a čoček. <br> Převod
+                    funguje stejně jako u technologie CCD. <br> Používá LED osvětlení. <br>
+                    <br>
+                    <img src="https://m.media-amazon.com/images/I/61l2uex8BgL.jpg" alt="">
+                </li>
+                <li class="lityp">
+                    <br>
+                    <h3>Bubnové (drum)</h3>
+                    Předloha je nalepena na rotujícím válci a je snímána paprskem. <br> Nevýhodou bubnového skeneru je
+                    vysoká
+                    cena, a proto jsou využívány zejména pro snímání velmi velkých předloh, nebo tam, kde je potřeba
+                    velice vysoká kvalita výsledku. <br> Tato technologie je zároveň nejstarší. <br> Používá neviditelné
+                    záření. <br>
+                    <br>
+                    <img src="https://cdn.pressxchange.com/74/800/x800_heidelberg-tango-901395.jpg" alt="">
+                </li>
+                <li class="lityp">
+                    <br>
+                    <h3>Filmové</h3>
+                    Slouží pro snímání jednotlivých políček filmu. <br> Vzhledem ke svému specifickému účelu jsou
+                    většinou
+                    používány pouze profesionálně. <br> Používá LED osvětlení. <br>
+                    <br>
+                    <img src="https://m.media-amazon.com/images/I/61CYWmY8iuL._AC_SL1500_.jpg" alt="">
+                </li>
+                <li class="lityp">
+                    <br>
+                    <h3>3D</h3>
+                    Nová technologie umožňující pomocí laserových paprsků nasnímat i 3D objekt. Velice
+                    nákladná technologie pouze pro profesionální využití. <br> Skenování 3D objektů může probíhat bez
+                    jejich
+                    poškození s pomocí zařízení pracujícím na principu rentgenových paprsků, magnetické rezonance nebo
+                    díky frézování modelu na tenké vrstvy, které jsou následně naskenovány. <br> Používá lasery. <br>
+                    <br>
+                    <img src="https://cz.farnell.com/productimages/standard/en_GB/2919053-40.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer class="col-md-6 col-lg-12">
+        <br> <br>
+        <p class="pata">vyrobil:@Jakub Zmátlo <br>
+            jakub.zmatlo@student.spsmb.</p>
+    </footer>
+</body>
+
+</html>
